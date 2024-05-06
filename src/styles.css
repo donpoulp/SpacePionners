@@ -1,3 +1,23 @@
+/* PAGE PRODUIT************************************************PAGE PRODUIT */
+/* PAGE PRODUIT************************************************PAGE PRODUIT */
+
+.bodySPProductPage {
+  color: white;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.mainSPProductPage {
+  background-image: url(/src/Img/Img-SpacePionner/stars.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 30px 20px;
+}
+
+
+
+
+
 
 /* Space pioneer Menu burger */
 @media screen  and (min-width:320px) and (max-width : 768px) {
@@ -222,6 +242,7 @@
     color: white;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
+
 
 .TitleSP{
     font-size: 3rem;
