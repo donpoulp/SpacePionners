@@ -1,3 +1,48 @@
+
+/* PAGE PRODUIT************************************************PAGE PRODUIT */
+/* PAGE PRODUIT************************************************PAGE PRODUIT */
+
+.bodySPProductPage {
+  color: white;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.mainSPProductPage {
+  background-image: url(/src/Img/Img-SpacePionner/stars.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 180px 30px 20px;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.productDescription p {
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .productDescription p {
+    font-size: 1rem;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  .productDescription p {
+    font-size: 1.4rem;
+  }
+  
+}
+
+
+
+
+
 /* Space pioneer Menu burger */
 @media screen  and (min-width:320px) and (max-width : 768px) {
     .SP-burger-BG{
@@ -488,6 +533,54 @@
     bottom: 37%;
     right: 15%;
 } */
+/* fICHE CONTACT***************************************************************
+******************************************************************************
+ */
+.ContactFiche-SP{
+  background-image: url(./Img/Img-SpacePionner/SectionContact.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5%;
+}
+.ContactFiche-SP p{
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+.Background-Contact{
+  background-color: rgba(103, 63, 105, 0.80);
+  border-radius: 5px;
+  width: 80%;
+  padding: 2%;
+text-align: center;
+}
+.AlignItemsContact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.AlignItemsContact h3{
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+}
+.AlignItemsContact img{
+  width: 10vw;
+}
+.formContactSP textarea,input{
+width: 90%;
+}
+.formContactSP button{
+  width: 60%;
+  background-color:var(--rose);
+  color: white;
+  border: 1px solid white ;
+  border-radius: 50px 50px 50px 50px;
+  font-weight: bolder;
+  padding: 2%;
+}
 
 /* MEDIA QUERIES SITE *************************************/
 @media only screen and (min-width:768px) {
@@ -504,7 +597,7 @@
     .aProposSecondDiv{
         justify-content: center;
     }
-}
+  }
 
 @media only screen and (min-width: 1024px) {
 
@@ -561,6 +654,14 @@
     .FuseeImgMobile{
         display: none;
     }
+    .input-Sp-Contact{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 2%;
+    }
+    .input-Sp-Contact input{
+      width: 42%;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -581,11 +682,39 @@
         font-size: 1.7rem;
         width: 600px;
     }
+    .ContactFiche-SP{
+      background-size: cover;
+    }
+    .Background-Contact{
+      padding: 0.5%;
+      width: 60%;
+      margin: 0.5% 0 ;
+    }
+    .Background-Contact button{
+      margin: 0.5% 0% 0.5% 0%
+    }
+   .Background-Contact p{
+    font-size: 1rem;
+  }
+.formContactSP button{
+  padding: 0.5%;
+  width: 20%;
+  font-size: 1.5rem;
 }
-
-
-
-
+.NumeroTelSP{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ 
+}
+.NumeroDuhaut{
+  display:flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px var(--secondary-colorOpacity);
+  padding: 1%;
+  border-radius: 8%;
+}
+}
 
 
 
