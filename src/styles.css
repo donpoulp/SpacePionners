@@ -38,6 +38,39 @@
 }
 
 
+/* Page produit animation */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mainSPProductPage h1, .animeImageFromLeft {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+.mainSPProductPage h2, .animeImageFromRight {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 2s ease-out 0s 1 slideInFromRight;
+}
+
+
+
+
 
 
 /* Space pioneer Menu burger */
