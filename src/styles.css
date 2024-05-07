@@ -296,6 +296,115 @@
     height: 200px;
 }
 
+/* -------------  SECTION PRODUIT -------------------- */
+
+.sectionProduitSP{
+  background-image: url(./Img/Img-SpacePionner/aldebaran-s-uXchDIKs4qI-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  padding: 0 5%;
+  margin-bottom: -1px;
+  margin-top: -4px;
+ 
+}
+
+
+.produit-first-div{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.produit-first-div img{
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  border: 2px solid white;
+  
+}
+.produit-second-div p{
+  width: 60%;
+  margin:1rem 0 2rem 20%;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+.product{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+}
+.product-info{
+  width: 90%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ECEEF2;
+}
+.product-info> a{
+ text-decoration: none;
+ color: var(--black);
+}
+
+
+/* -----     animation produit --------- */
+.product-info:hover{
+  -webkit-animation: kenburns-top-right 5s ease-out both;
+  animation: kenburns-top-right 5s ease-out both;
+}
+
+@-webkit-keyframes kenburns-top-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 16%;
+            transform-origin: 84% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(20px, -15px);
+            transform: scale(1.25) translate(20px, -15px);
+    -webkit-transform-origin: right top;
+            transform-origin: right top;
+  }
+}
+@keyframes kenburns-top-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 16%;
+            transform-origin: 84% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(20px, -15px);
+            transform: scale(1.25) translate(20px, -15px);
+    -webkit-transform-origin: right top;
+            transform-origin: right top;
+  }
+}
+/* --------------------------------------------------------------- */
+
+@media screen and (max-width:425px) {
+  .produit-first-div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid white;
+  }
+  .sectionProduitSP{
+    height: 130vh;
+  }
+}
+
 /* SECTION EQUIPE SITE ******************************* */
 .sectionEquipeSP {
     background-image: url(./Img/Img-SpacePionner/milkyWay.png);
