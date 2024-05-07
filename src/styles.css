@@ -77,8 +77,10 @@ html {
   animation: 2s ease-out 0s 1 slideInFromRight;
 }
 
-
-
+.carousel img {
+  width: 100vw;
+  height: 50vw;
+}
 
 
 
@@ -852,9 +854,55 @@ input {
 }
 
 
+/* Fiche Produits Tristan************** */
+.fiche-Produit-Titre-T {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 1%;
+background-image: url(./Img/Img-SpacePionner/milkyWay.png);
+}
+.fiche-Produit-Titre-T p{
+  margin: 5%;
+}
+.fiche-Produit-Titre-T h2{
+  font-size: 2rem;
+ 
+  text-shadow: 3px 3px 3px var(--jaune);
+  margin-bottom: 10%;
+  margin-top: 30%;
+  font-weight: 600;
+  width: 100%;
+  animation-duration: 3s;
+  animation-name: TristanTitreSlide;
+}
+.Fiche-produit-main-T{
+  overflow: hidden;
+}
+@keyframes TristanTitreSlide {
+  from {
+    margin-right: 100%;
+    width: 200%;
+  }
 
-
-
+  to {
+    margin-right:50%;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 426px){
+  .fiche-Produit-Titre-T P{
+    font-size: 1.3rem;
+  margin-bottom: 10vh;
+  }
+  .fiche-Produit-Titre-T h2{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+}
 
 /* PARTIE RAPHAEL **************************************************************/
 /*  ****************************************************************************/
