@@ -1,6 +1,5 @@
 /* PAGE PRODUIT************************************************PAGE PRODUIT */
 /* PAGE PRODUIT************************************************PAGE PRODUIT */
-
 .bodySPProductPage {
   color: white;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -2522,7 +2521,6 @@ background-size:cover;
 }
 
 
-
 /* button */
 .btn-jo{
     color: var(--white);
@@ -3449,4 +3447,32 @@ h1 {
       margin-left: 0rem;
       border-radius: 10px;
     }
+  }
+  @media (prefers-color-scheme: dark){
+      .SP-Header-NavBar,.Background-Contact,.sectionEquipeSP p,.SP-Footer{
+        background-color: rgba(47, 28, 48, 0.856);
+      }
+      .bodySP a,.bodySP h1,.bodySP p,.bodySP h2,.bodySP h3{
+        color: #a5a5a5;
+      }
+      .formContactSP input,.formContactSP textarea{
+        background-color: #a5a5a5;
+      }
+      .NumeroDuhaut{
+        box-shadow: 0px 0px 15px #802c45dc;
+      }
+      .formContactSP button{
+        background-color: #802c45dc;
+        color: #a5a5a5;
+        border-color: #a5a5a5;
+      }
+      .SP-Sponsor{
+        background: linear-gradient(90deg, rgb(119, 80, 8) 0%, rgba(110, 75, 8, 0.747) 50%, rgb(119, 80, 8) 100%);
+      }
+      svg{
+        fill: #ad362d;
+      }
+      .sectionAccueilSP,.SP-Logo,.sectionAProposSP,.sectionAProposSP img,.sectionEquipeSP,.ContactFiche-SP,.SP-footer-burger,#HeaderIMG,#AproposR,#MesExperiencesR,#MesProjetsR,#ContactR,#Footer{
+        filter: grayscale(40%);
+      }
   }
