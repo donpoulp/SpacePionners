@@ -784,7 +784,7 @@
   width: 10vw;
 }
 
-.formContactSP textarea,
+.formContactSP textarea,.formContactSP
 input {
   width: 90%;
 }
@@ -1585,7 +1585,7 @@ video {
   display: none;
 }
 
-/* responsive phone */
+/* responsive phone Raphael */
 @media only screen and (max-width: 700px) {
 
   #Apropos,
@@ -1597,11 +1597,14 @@ video {
   }
 
   .HeaderTXT {
-    margin-top: 50%;
+    margin-top: 90%;
   }
 
   .HeaderH1 {
-    font-size: 50px;
+    font-size: 2.5rem;
+  }
+  .HeaderH2 {
+    font-size: 1.2rem;
   }
 
   .MesTitles {
@@ -1613,29 +1616,34 @@ video {
   }
 
   .MesTitles h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top: 50px;
   }
-
   .PhoneAdapte {
     display: flex;
     flex-direction: column;
   }
-
+  .Coordo img{
+    display: none;
+  }
   .DscApropos {
     display: none;
   }
-
   .Coordo {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
-
+  .coordonée{
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .BlockContactGaucheBottom img{
+    max-width: 50px;
+  }
   .Coordo h4 {
     font-size: 18px;
   }
-
   .Coordo p {
     margin-top: 2px;
     font-size: 16px;
@@ -1693,7 +1701,7 @@ video {
   }
 
   .BlockContactGauche p {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   #Footer h6 {
