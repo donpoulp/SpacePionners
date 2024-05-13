@@ -20,19 +20,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/styles.css" />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <title>Catalogue</title>
   </head>
-  <body class="body-catalogue-produit">
-    <header class="SP-Header-NavBar">
+  <body>
+    <header class="SP-Header-NavBar" >
       <div class="SP-Logo">
-        <a href="index.html"
-          ><img src="./Img/Img-SpacePionner/Logo.png" alt="Logo Space Pioneer"
-        /></a>
+        <a href="index.html"><img src="./Img/Img-SpacePionner/Logo.png" alt="Logo Space Pioneer" /></a>
       </div>
       <nav class="SP-Nav-Desk">
-        <a href="index.html#">ACCUEIL</a>
+        <a href="index.html">ACCUEIL</a>
         <a href="index.html#a-propos">A PROPOS</a>
         <a href="index.html#Produit-sp">PRODUIT</a>
         <a href="index.html#equipe-sp">EQUIPE</a>
@@ -41,41 +39,27 @@
         <img src="./Img/Img-SpacePionner/burger.svg" alt="Menu burger"
       /></a>
     </header>
-    <main class="main-catalogue">
-       <div class=" d-flex flex-wrap justify-content-around">
-        <div class="card m-5 " >
-            <img src="./Img/img-product/t-shirt-sp.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">T-SHIRT</h5>
-              <p class="card-text">Space Pionner</p>
-              <a href="product-info1.html" class="btn-jo d-flex justify-content-center ">$99.99</a>
-            </div>
-          </div>
-          <div class="card m-5" style="width: 18rem;">
-            <img src="./Img/img-product/t-shirt-sp-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">T-SHIRT</h5>
-              <p class="card-text">Space Pionner</p>
-              <a href="product-info2.html" class="btn-jo d-flex justify-content-center ">$99.99</a>
-            </div>
-          </div>
-          <div class="card m-5" style="width: 18rem;">
-            <img src="./Img/img-product/t-shirt-sp-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">T-SHIRT</h5>
-              <p class="card-text">Space Pionner</p>
-              <a href="product-info2.html" class="btn-jo d-flex justify-content-center ">$99.99</a>
-            </div>
-          </div>
-          <div class="card m-5" style="width: 18rem;">
-            <img src="./Img/img-product/Bracelet-Iron-1.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">BRACELET IRON</h5>
-              <p class="card-text">Space Pionner</p>
-              <a href="#" class="btn-jo d-flex justify-content-center ">$240.00</a>
-            </div>
-          </div>
-       </div> 
+    <main class="product-info-main">
+      <div class="img-product-info">
+        <img src="./Img/img-product/t-shirt-sp-2.png" alt="">
+      </div>
+      <div class="description-product-info">
+        <h2>T-SHIRT Space Pionner</h2>
+        <p>Explorez les confins de l'univers avec style grâce au T-shirt Space Pioneer. Conçu pour les esprits intrépides et les explorateurs modernes,<br> ce vêtement emblématique incarne l'esprit audacieux de ceux qui repoussent les frontières de l'espace.<br>
+          Fabriqué à partir de matériaux de pointe, ce T-shirt offre un confort optimal même dans les conditions les plus extrêmes de l'espace. <br>Sa coupe ajustée et ses coutures renforcées garantissent une liberté de mouvement totale, que vous soyez en orbite autour de la Terre ou en mission sur une planète lointaine.</p>
+        <select class="select-product-info" >
+          <option value="s">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+          <option value="XXL">XXL</option>
+        </select>
+        <p class="product-dispo">Disponibilité : <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg> </p>
+        <a href="#" class="btn-jo">Ajouter au panier</a>
+      </div>
+
     </main>
     <footer class="SP-footer-burger">
       <div class="SP-Sponsor">
@@ -86,6 +70,7 @@
         />
         <img src="./Img/Img-SpacePionner/lacoste1.png" alt="Logo Lacoste" />
       </div>
+
       <div class="SP-Footer">
         <div class="SP-Reseaux">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
