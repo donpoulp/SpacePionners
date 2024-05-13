@@ -4212,6 +4212,16 @@ button {
       border-radius: 10px;
     }
   }
+  @media (prefers-color-scheme: dark) {
+    body{
+      filter: grayscale(60%);
+    }
+  }
+  /* @media (prefers-color-scheme: light) {
+    body{
+      filter: contrast(150%);
+    }
+  } */
 
 
   /* ---------------------------   */
