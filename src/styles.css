@@ -39,7 +39,128 @@
   
 }
 
+/* --------    product-info -------- */
+.product-info-main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-image: url(./Img/Img-SpacePionner/milkyWay.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding:  10rem 2rem 2rem 2rem;
+}
+.img-product-info{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 5rem 4rem 0rem 8rem;
+}
+.img-product-info img{
+  width: 90%;
+  border-radius: 20px;
 
+}
+.description-product-info{
+  width: 50%;
+  height: 100%;
+  padding: 4rem;
+  color: var(--white);
+}
+.description-product-info h2{
+  text-align: center;
+  margin-bottom: 4vh;
+  
+}
+.description-product-info a{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+.description-product-info p{
+  font-size:1.5rem;
+  margin-bottom: 2vh;
+  
+}
+.select-product-info{
+  width: 30%;
+  border: 2px solid var(--black);
+  border-radius: 5px;
+  margin-bottom: 2vh;
+
+}
+.product-dispo svg{
+width: 40px;
+height: 40px;
+fill: rgb(7, 177, 7);
+}
+.product-dispo{
+  margin-bottom: 1vh;
+
+}
+@media screen and (max-width:1024px){
+  .img-product-info img{
+    width: 100%;
+  }
+  .description-product-info p{
+    font-size:1rem;
+    margin-bottom: 2vh;
+    
+  }
+  .description-product-info a{
+    width: 100%;
+   padding: 1rem;
+    
+    
+  }
+}
+@media screen and (max-width:768px) {
+  .img-product-info{
+    padding: 2rem 2rem 0rem 4rem;
+  }
+
+  .img-product-info img{
+    width: 100%;
+  }
+  .description-product-info{
+    padding: 2rem;
+  }
+  .description-product-info a{
+    width: 100%;
+   padding: 0.8rem;
+    
+    
+  }
+}
+@media screen and (max-width:425px){
+  .product-info-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:  10rem 1rem 2rem 1rem;
+  }
+  .img-product-info{
+    width: 100%;
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  .description-product-info{
+    width: 100%;
+  }
+  .description-product-info a{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    
+    
+  }
+}
 
 
 
@@ -452,18 +573,27 @@
   padding: 2rem;
 }
 .product-info{
-  width: 90%;
-  padding: 1.5rem;
+  width: 95%;
+  padding: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   background-color: #ECEEF2;
+  color: var(--black) !important;
+ font-weight: bold;
+
 }
 .product-info p{
+  
  text-decoration: none;
  color: var(--black) !important;
  font-weight: bold;
 }
+.product-info span{
+  text-decoration:line-through;
+  text-decoration-color:red;
+}
+
 
 @media screen and (max-width:1024px) {
   .product-info img {
@@ -559,17 +689,23 @@
 }
 
 .card{
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgb(217, 255, 0) 0px 1px 4px;
 }
 
 
 
 /* ---------------   meteor----------------- */
+@media screen and (max-width:425px){
+  .night{
+    display: none;
+  }
+}
 .night {
   position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  top: 150;
+  box-sizing: content-box;
+  width: 80%;
+  height: 10%;
   -webkit-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
   -webkit-animation: sky 200000ms linear infinite;
