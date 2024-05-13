@@ -1857,9 +1857,7 @@ p {
   margin-bottom: 5%;
 }
 
-#MesExp li,
-p,
-div {
+#MesExp li,p {
   font-size: 20px;
 }
 
@@ -2984,14 +2982,14 @@ video {
 }
 
 .navBarT {
-
   width: 100%;
   height: 10vh;
-  font-size: 2rem;
-  padding: 40px;
+  font-size: 1.5rem;
+  padding: 1%;
   background-color: var(--primary);
   color: white;
   position: fixed;
+
 }
 
 .Logo-SP-Mafuseetacapterlesangonestpasdescagette {
@@ -3004,50 +3002,48 @@ video {
 }
 
 .menuListeT {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-}
 
+}
+.menuListeT {
+  list-style: none;
+}
 #photoProfilT {
-  width: 300px;
+  width: 25vh;
   border-radius: 50px;
-  margin: 120px 60px 70px 50px;
   box-shadow: 15px 15px var(--primary);
-  padding: 10px 10px 10px 10px;
+  padding: 2%;
 }
-
 .h1T {
   font-size: 5rem;
   background-color: var(--secondary);
   border-radius: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 5px;
   box-shadow: 15px 15px var(--tertiaire);
-  margin: 230px 200px 0px 200px;
-  text-align: center;
+  margin-top: 20%;
 }
-
-.infoT {
-  margin-left: 150px;
-}
-
-.space-arround {
-  display: flex;
-  font-size: 2rem;
-  margin: 30px 20px 30px 20px;
-  align-content: center;
-  padding: 10px 10px 10px 10px
-}
-
 .header-T {
+  width: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10vh;
 }
-
+.space-arround{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+ margin-top: 2vh;
+}
+.space-arround a{
+  color: black;
+}
 .iconeT {
-  width: 60px;
+  width: 5%;
 }
-
 /* début résumé */
 .resumeT {
   background-image: url(./Img/Img-Tristan/photo1.png);
@@ -3057,49 +3053,46 @@ video {
   display: flex;
   font-size: 2rem;
   flex-direction: column;
-  margin: 0px;
-  padding: 300px;
 }
 
 .resumeT p {
   background-color: rgba(255, 255, 255, 0.461);
-
+  font-size: 2rem;
+  padding: 1%;
 }
 
-.photocentre {
-  height: 600px;
-  width: 100%;
-  background-image: no-repeat;
-  object-fit: cover;
-}
 
 #fleche {
   position: fixed;
-  right: 90px;
+  right: 70px;
   bottom: 0;
+  width: 1em;
 }
 
 /* debut carriere */
 .bloccarriereT {
   background-color: white;
+  padding: 10vh ;
+}
+.bloccarriereT p{
   font-size: 2rem;
-  padding: 100px;
+
 }
 
 .bloccarriereT h3 {
   text-align: center;
-  margin: 50px 50px 50px 50px;
+  margin: 5vh 0 5vh 0;
 }
-
 .H2T {
   text-align: center;
-  font-size: 5rem;
+  font-size: 1rem;
   background-color: rgba(245, 245, 220, 0.382);
   border-radius: 20px;
-  padding: 10px 20px 10px 20px;
   box-shadow: 15px 15px #673F69;
-  margin: 0px 0px 60px 0px;
-
+  margin: 0px 0px 20vh 0px;
+}
+.commercialItinerant p{
+  margin-bottom: 2vh;
 }
 
 /* parcours scolaire */
@@ -3110,7 +3103,6 @@ video {
   object-fit: cover;
   font-size: 3rem;
   margin: 0px;
-  padding: 300px;
   color: white;
 }
 
@@ -3121,14 +3113,14 @@ video {
 }
 
 .parcoursScolaireListe p {
-  background-color: rgba(0, 0, 0, 0.402)
+  background-color: rgba(0, 0, 0, 0.402);
+  margin-bottom: 2vh;
 }
 
 /* debut centre interet */
 .centreInteret {
   font-size: 2rem;
-  margin: 0px;
-  padding: 400px;
+  width: 100%;
   background-image: url(./Img/Img-Tristan/photo3.png);
   background-size: cover;
   background-position: center;
@@ -3142,28 +3134,22 @@ video {
 
 .centreInteretListe {
   background-color: rgba(255, 255, 255, 0.472);
+  padding: 2vh;
 }
 
 /* début compétences */
 
 .competencesT {
+  width: 100%;
   background-image: url(./Img/Img-Tristan/photo4.png);
   background-size: cover;
   background-position: center;
   object-fit: cover;
-  font-size: 4rem;
   margin: 0px;
-  padding: 200px;
 }
-
-.competencesT h3 {
-  background-color: white;
-  text-align: center;
-}
-
 .competencestableau td {
   border: 1px solid black;
-  padding: 15px;
+  
 }
 
 .tableT {
@@ -3311,239 +3297,362 @@ video {
   border: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 320px) and (max-width: 600px){
+.navBarT{
+  display:none
+}
+#photoProfilT{
+    border-radius: 50px;
+    margin: 1%;
+    box-shadow: 2px 2px var(--primary);
+    padding: 2%;
+      width: 4rem;
+      height: 5rem;
+      border-radius: 50px;
+      box-shadow: 3px 3px var(--primary);
+      padding: 2%;
+}
+.header-T {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1vh;
+}
+.infoT{
+  margin-left: 0px;
+}
+.h1T {
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 1%;
+  box-shadow: 5px 5px var(--tertiaire);
+  margin: 1%;
+  text-align: center;
+}
+.space-arround {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.5rem;
+  margin: 2%;
+  align-content: center;
+  padding: 2%;
+}
+.space-arround p{
+  font-size: 0.8rem;
+}
+.iconeT {
+  width: 20px;
+}
+.Burger-PhotoT{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.HeaderTT{
+  display: flex;
+  flex-direction: column;
+}
+.H2T {
+  width: 100%;
+  font-size: 1.5rem;
+  box-shadow: 5px 5px #673F69;
+  margin: 5% 0px 5% 0px;
+}
+.resumeT {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./Img/Img-Tristan/photo1.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  padding: 2%;
+}
+.resumeT p{
+  font-size: 0.8rem;
+}
+.bloccarriereT {
+  padding: 3vh ;
+}
+.bloccarriereT p{
+  font-size: 2rem;
+}
 
-  .navBarT {
-    display: none;
+.bloccarriereT h3 {
+  text-align: center;
+  margin: 5vh 0 5vh 0;
+}
+.parcoursScolaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  background-image: url(./Img/Img-Tristan/photo2.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  color: white;
+  padding: 3vh
+}
+.parcoursScolaire h3 {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.433);
+}
+
+.parcoursScolaireListe p {
+  background-color: rgba(0, 0, 0, 0.402);
+  margin-bottom: 2vh;
+  font-size: 1rem;
+}
+.centreInteret {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ height: 70vh;
+ padding: 3vh
+}
+  
+.centreInteret h3 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.472);
+}
+.competencesT {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.competencestableau td {
+  border: 1px solid black;
+  padding: 1.5rem;
+}
+#fleche img{
+  position: fixed;
+  right: 0px;
+  bottom: 0;
+  width: 3rem;
+}
+.competencesT{
+  margin-top: -1px;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+  .navBarT{
+    display:none
   }
-
-  .headerT {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  #photoProfilT{
+      border-radius: 50px;
+      margin: 1%;
+      box-shadow: 2px 2px var(--primary);
+      padding: 2%;
+        width: 4rem;
+        height: 5rem;
+        border-radius: 50px;
+        box-shadow: 3px 3px var(--primary);
+        padding: 2%;
+  }
+  .header-T {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1vh;
   }
-
-  .infoT {
+  .infoT{
     margin-left: 0px;
   }
-
-  #fleche {
-    position: fixed;
-    right: 90px;
-    display: none;
-  }
-
-  .bodyT {
-    width: 100%;
-  }
-
-  #photoProfilT {
-    display: none;
-  }
-
-  .bloccarriere {
-    background-color: white;
-    font-size: 2rem;
-    padding: 0px;
-  }
-
-  .resume {
-    display: flex;
-    font-size: 2rem;
-    flex-direction: column;
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .h2T {
-    font-size: 2rem;
-    margin: 8px;
-    box-shadow: 5px 5px;
-
-  }
-
-  .space-arround {
-
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0px 10px 0px
-  }
-
-  .parcoursScolaire {
-    background-image: url(./photo/school-work.jpg);
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    font-size: 2rem;
-    margin: 0px;
-    padding: 10px;
-  }
-
-  .centreInteret {
-    font-size: 2rem;
-    margin: 0px;
-    padding: 10px;
-  }
-
-  .competences {
-    background-image: url(./photo/competence.jpg);
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    font-size: 2rem;
-    margin: 0px;
-    padding: 10px;
-  }
-
-  .footerT {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px;
-    padding: 5px;
-    font-size: 2rem;
-
-  }
-
-  .footerContact img,
-  .footerT img,
-  #photoProfilT,
-  .iconeT,
-  #fleche {
-    width: 2em;
-  }
-}
-
-@media only screen and (max-width: 1800px) {
-  .menuListeT {
-    font-size: 1rem;
-  }
-
-  #photoProfilT {
-    display: none;
-  }
-
-  .header-T {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    width: 100%;
-  }
-
   .h1T {
-    font-size: 5rem;
-    background-color: rgba(245, 245, 220, 0.382);
-    border-radius: 20px;
-    padding: 10px 5px 0px px;
-    box-shadow: 15px 15px #000000;
-
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 1%;
+    box-shadow: 5px 5px var(--tertiaire);
+    margin: 1%;
     text-align: center;
   }
-
-  .h2T {
-    font-size: 2rem;
-    margin: 8px;
-    box-shadow: 5px 5px;
-
-  }
-
   .space-arround {
-
-    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+    margin: 2%;
+    align-content: center;
+    padding: 2%;
+  }
+  .space-arround p{
+    font-size: 0.8rem;
+  }
+  .iconeT {
+    width: 20px;
+  }
+  .Burger-PhotoT{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  .HeaderTT{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px 0px 10px 0px
   }
-
+  .H2T {
+    width: 100%;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px #673F69;
+    margin: 5% 0px 5% 0px;
+  }
+  .resumeT {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./Img/Img-Tristan/photo1.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    padding: 2%;
+  }
+  .resumeT p{
+    font-size: 0.8rem;
+  }
+  .bloccarriereT {
+    padding: 3vh ;
+  }
+  .bloccarriereT p{
+    font-size: 2rem;
+  }
+  
+  .bloccarriereT h3 {
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+  }
   .parcoursScolaire {
-    background-image: url(/photo/school-work.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    background-image: url(./Img/Img-Tristan/photo2.png);
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    font-size: 2rem;
-    margin: 0px;
-    padding: 10px;
-
+    color: white;
+    padding: 3vh
   }
-
+  .parcoursScolaire h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.433);
+  }
+  
+  .parcoursScolaireListe p {
+    background-color: rgba(0, 0, 0, 0.402);
+    margin-bottom: 2vh;
+    font-size: 1rem;
+  }
   .centreInteret {
-    font-size: 2rem;
-    margin: 0px;
-    padding: 10px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   height: 70vh;
+   padding: 3vh
   }
-
-  .competences {
-    background-image: url(/photo/competence.jpg);
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-    font-size: 2rem;
-    margin: 0px;
-    padding: 10px;
-  }
-
-}
-
-@media only screen and (max-width: 1150px) {
-  .navBarT {
-    display: none;
-
-  }
-
-  .hobbyT p {
-    font-size: 1rem;
-  }
-
-  .menuHobbyT a {
-    font-size: 1rem;
-  }
-
-    .header-T{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    #photoProfilT {
-        width: 250px;
-        border-radius: 50px;
-        margin: 0px 0px 20px 0px;
-        box-shadow: 15px 15px #000000;
-        padding: 0px 0px 0px 0px;
-    }
-    .menuContact a{
-        font-size: 1rem;
-    }
-    .texte{
-        height: 30px;
-        width: 350px;
-        font-size: 1rem;
-    }
-    .select{
-        height: 30px;
-        width: 350px;
-        font-size: 1rem;
-    }
-    .Button-T{
-        height: 30px;
-        width: 350px;
-        background-color: rgb(245, 245, 220);
-        font-size: 1rem;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        border-radius: 50px 50px 50px 50px;
-        
-    }
-    .footerContact{
-        display: none;
-    }
-   
     
+  .centreInteret h3 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.472);
+  }
+  .competencesT {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .competencestableau td {
+    border: 1px solid black;
+    padding: 1.5rem;
+  }
+  #fleche img{
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    width: 3rem;
+  }
+  .competencesT{
+    margin-top: -1px;
+  }
 }
+@media only screen and (min-width: 1025px){
+.menuListeT a{
+  font-size: 1rem;
+}
+.H2T{
+  font-size: 3rem;
+  margin-top: 2vh;
+}
+.resumeT {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./Img/Img-Tristan/photo1.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  padding: 2%;
+}
+.resumeT {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./Img/Img-Tristan/photo1.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  padding: 2%;
+}
+.centreInteret {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ height: 100vh;
+ padding: 3vh
+}
+.parcoursScolaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./Img/Img-Tristan/photo2.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  color: white;
+  padding: 3vh
+}
+.competencesT {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.competencestableau td {
+  border: 1px solid black;
+  padding: 6rem;
+}
+.competencesT{
+  margin-top: -1px;
+}
+.footerT img{
+  width: 3rem;
+}
+}
+
+
+
 
 /* FIN PARTIE TRISTAN*********************************************************************** */
 
