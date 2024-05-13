@@ -9,32 +9,55 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/src/styles.css">
     <link rel="stylesheet" href="main.css">
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
-<body class="bodySP">
-    <header class="SP-Header-NavBar" >
-        <div class="SP-Logo">
-          <a href="#accueil-sp"><img src="./Img/Img-SpacePionner/Logo.png" alt="Logo Space Pioneer" /></a>
+<body class="bodySPProductPage">
+  <header class="SP-Header-NavBar" >
+    <div class="SP-Logo">
+      <a href="#accueil-sp"><img src="./Img/Img-SpacePionner/Logo.png" alt="Logo Space Pioneer" /></a>
+    </div>
+    <nav class="SP-Nav-Desk">
+      <a href="#">ACCUEIL</a>
+      <a href="#a-propos">A PROPOS</a>
+      <a href="#Produit-sp">PRODUIT</a>
+      <a href="#equipe-sp">EQUIPE</a>
+    </nav>
+    <a class="SP-Burger-Logo" href="menuburger.html">
+      <img src="./Img/Img-SpacePionner/burger.svg" alt="Menu burger"
+    /></a>
+  </header>
+    <main class="mainSPProductPage">
+
+        <h1 class="display-1 fw-normal textAlignCenter">Product Name</h1>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="d-md-none img-fluid img-thumbnail mt-4 object-fit-cover" src="/src/Img/Img-SpacePionner/ai-generated-8723798_1280.png" alt="Image produit">
+              <img class="d-none d-md-block img-fluid img-thumbnail  mt-4 object-fit-cover" src="/src/Img/Img-SpacePionner/ai-generated-8723798_1280.png" alt="Image produit">
+            </div>
+            <div class="col-md productDescription">
+              <p class="text-start mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta praesentium rerum.</p>
+              <h2 class="display-4 fw-normal">Product</h2>
+              <div class="row">
+                <div class="col-md-7">
+                  <p class="text-start mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus reprehenderit ipsum voluptatum cupiditate quos eveniet et excepturi iusto quas odio. Natus, at ut!</p>   
+                </div>
+                <divc class="col-md"> 
+                  <img class="img-fluid img-thumbnail mt-5" src="/src/Img/Img-SpacePionner/ai-generated-8723798_1280.png" alt="Image produit">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <nav class="SP-Nav-Desk">
-          <a href="index.html">ACCUEIL</a>
-          <a href="index.html#a-propos">A PROPOS</a>
-          <a href="#equipe-sp">EQUIPE</a>
-        </nav>
-        <a class="SP-Burger-Logo" href="menuburger.html">
-          <img src="./Img/Img-SpacePionner/burger.svg" alt="Menu burger"
-        /></a>
-      </header>
-    <main class="mainSP">
-        <h1 class="">Product List</h1>
-        <div>
-            <h2 class="warning">Product</h2>
-            <p class="bg-primary-subtle">Ceci est un produit</p>
-            <button class="primary">Buy</button>
-        </div>
+        
+        
+
+
+
     </main>
     <footer class="SP-footer-burger">
         <div class="SP-Sponsor">
@@ -64,7 +87,7 @@
           </div>
           <p>&copy; SPACE PIONEER</p>
           <div class="CmaFuseeBatard">
-            <a href="#accueil-sp"><img
+            <a href="#pageProduitSP"><img
               src="./Img/Img-SpacePionner/fusée scroll.svg"
               alt="Fusée pour scroll"
             /></a>
