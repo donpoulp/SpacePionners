@@ -956,9 +956,9 @@ input {
   .NumeroDuhaut {
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 15px var(--secondary-colorOpacity);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.315);
     padding: 1%;
-    border-radius: 8%;
+    border-radius: 5%;
   }
 }
 
@@ -4213,7 +4213,7 @@ button {
     }
   }
   @media (prefers-color-scheme: dark) {
-    body{
+    html{
       filter: grayscale(60%);
     }
   }
