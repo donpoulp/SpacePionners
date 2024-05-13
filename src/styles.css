@@ -1661,7 +1661,7 @@ body {
   flex-direction: row;
   text-align: center;
   background-color: var(--secondary-colorOpacity);
-  width: 18%;
+  width: fit-content;
   padding: 2%;
   font-size: 18px;
 }
@@ -1824,7 +1824,9 @@ p {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
+.MesExp li{
+  list-style: none;
+}
 .MesExp2 {
   display: flex;
   flex-direction: column;
@@ -1841,20 +1843,21 @@ p {
 
 .Activites .CarreGris {
   font-size: 18px;
+  width: fit-content;
   padding: 2%;
-  width: auto;
 }
 
 .MesExp h4 {
   font-size: 30px;
-  margin-bottom: 6%;
+  /* margin-bottom: 6%; */
 }
 
 .MesExp h6 {
   color: var(--terciere-color);
   font-size: 24px;
   margin-top: 0;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 #MesExp li,p {
@@ -2090,8 +2093,9 @@ video {
 }
 
 /* Page 2 html */
-.IMGBody {
-  background: url(IMG/earth-1756274_1280.jpg);
+.IMGBody{
+  background: url(Img/Img-SpacePionner/earthFond.png);
+  background-color: #000000;
   text-align: center;
   align-items: center;
   color: #ffff;
