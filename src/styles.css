@@ -391,7 +391,7 @@ fill: rgb(7, 177, 7);
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   background-color: rgba(103, 63, 105);
   color: var(--white);
 }
