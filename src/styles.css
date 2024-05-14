@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* PAGE PRODUIT************************************************PAGE PRODUIT */
 /* PAGE PRODUIT************************************************PAGE PRODUIT */
 .bodySPProductPage {
@@ -70,7 +74,7 @@
 /*  --- catalogue ----- */
 .main-catalogue{
   width: 100%;
-
+  text-align: center;
   padding: 14rem 1rem;
 }
 .body-catalogue-produit{
@@ -84,6 +88,16 @@
 }
 .card{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pageProduitVoyages {
+  background-color: var(--rose);
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px 50px 50px 50px;
+  font-weight: 400;
+  font-size: 2rem;
+  padding:15px 5%;
 }
 
 /* --------    product-info -------- */
@@ -1526,6 +1540,9 @@ input {
     justify-content: space-around;
 
   }
+  .NumeroDuhaut p span{
+    font-weight: bolder;
+  }
 
   .NumeroDuhaut {
     display: flex;
@@ -1830,6 +1847,7 @@ p {
 }
 .MesExp li{
   list-style: none;
+  /* font-size: 1.4rem; */
 }
 .MesExp2 {
   display: flex;
@@ -1864,8 +1882,8 @@ p {
   margin-top: 3%;
 }
 
-#MesExp li,p {
-  font-size: 20px;
+.MesExp li,.MesExp p {
+  font-size: 1.3rem;
 }
 
 .Diplome p {
@@ -3768,7 +3786,6 @@ h2 {
 h3 {
   font-size: 1.9rem;
 }
-
 
 p {
   font-size: 1.5rem;
