@@ -74,7 +74,7 @@ html {
 /*  --- catalogue ----- */
 .main-catalogue{
   width: 100%;
-
+  text-align: center;
   padding: 14rem 1rem;
 }
 .body-catalogue-produit{
@@ -88,6 +88,16 @@ html {
 }
 .card{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pageProduitVoyages {
+  background-color: var(--rose);
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px 50px 50px 50px;
+  font-weight: 400;
+  font-size: 2rem;
+  padding:15px 5%;
 }
 
 /* --------    product-info -------- */
