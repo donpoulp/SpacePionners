@@ -10,7 +10,7 @@ html {
 }
 
 .mainSPProductPage {
-  background-image: url(Img/Img-SpacePionner/stars.png);
+  background-image: url(/src/Img/Img-SpacePionner/stars.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2355,7 +2355,7 @@ video {
 .bodyAntoine {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: white;
-    background-image: url(Img/Img-Antoine/stars.png);
+    background-image: url(/src/Img/Img-Antoine/stars.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
