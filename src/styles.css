@@ -149,6 +149,9 @@ fill: rgb(7, 177, 7);
   margin-bottom: 1vh;
 
 }
+.SP-burger-BG h2{
+  color: white;
+}
 @media screen and (max-width:1024px){
   .img-product-info img{
     width: 100%;
@@ -248,6 +251,7 @@ fill: rgb(7, 177, 7);
     .SP-border{
       border-bottom: 2px solid white;
     }
+  
   }
   @media screen  and (min-width:320px) and (max-width : 375px){
   
@@ -3192,7 +3196,7 @@ video {
   text-align: center;
   font-size: 2rem;
   background-color: rgba(245, 245, 220, 0.567);
-  border-radius: 0px 50px 0px 50px;
+
 }
 
 .mainhobbyT {
@@ -3216,28 +3220,11 @@ video {
   flex-direction: column;
   justify-content: space-around;
   align-content: space-between;
+  width: 100%;
   background-image: url(./Img/Img-Tristan/photo2.png);
   background-image: no-repeat;
   background-size: cover;
-  /* object-fit: cover; */
 }
-
-.menuContactT {
-  font-size: 2rem;
-  padding: 40px 0px 40px 0px;
-  background-color: var(--primary);
-  color: white;
-  margin: 0;
-  width: 100%;
-  text-align: center
-}
-
-.mainContactT h2 {
-  width: 50%;
-  text-align: center;
-  margin: 50px 0px 50px 0px;
-}
-
 .mainContactT {
   display: flex;
   flex-direction: column;
@@ -3245,22 +3232,21 @@ video {
 }
 
 .formT {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: space-around;
   background-color: rgba(245, 245, 220, 0.382);
-  border-radius: 0px 50px 0px 50px;
-  font-size: 2rem;
-  padding-left: 50px;
+  font-size: 1rem;
+  padding-left: 0px;
 }
 
 .formT button {
-  height: 60px;
-  width: 700px;
+  height: 40px;
+  width: 200px;
   background-color: rgb(245, 245, 220);
-  font-size: 2rem;
+  font-size: 1rem;
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 50px 50px 50px 50px;
@@ -3274,16 +3260,14 @@ video {
 }
 
 .texteT {
-  height: 60px;
-  width: 700px;
+  height: 30px;
+  width: 200px;
   font-size: 2rem;
 }
 
 .footerContact {
   background-color: white;
   width: 100%;
-  padding: 70px 0px 70px 0px;
-  margin: 130px 0px 0px 0px;
   font-size: 2rem;
   display: flex;
   justify-content: space-around;
@@ -3292,18 +3276,24 @@ video {
 }
 
 .select {
-  height: 60px;
-  width: 700px;
-  font-size: 2rem;
+  height: 40px;
+  width: 200px;
+  font-size: 1rem;
 }
 
 .iframeT {
   border: none;
 }
+.footerT{
+background-color: white;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 600px){
 .navBarT{
   display:none
+}
+.FuséeLogoRetour{
+  display: none;
 }
 #photoProfilT{
     border-radius: 50px;
@@ -3443,10 +3433,43 @@ justify-content: space-between;
 .competencesT{
   margin-top: -1px;
 }
+.menuHobbyT {
+  font-size: 2rem;
+  padding: 40px;
+  background-color: var(--primary);
+  color: white;
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  text-align: center
 }
+
+.hobbyT h2 {
+  text-align: center;
+  margin: 0px 0px 60px 0px;
+}
+
+.hobbyT p {
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgba(245, 245, 220, 0.567);
+  margin-bottom: 20vh;
+
+}
+
+.mainhobbyT {
+  width: 100%;
+  height: 100vh;
+ padding : 5%; 
+}
+}
+
 @media only screen and (min-width: 601px) and (max-width: 1024px){
   .navBarT{
     display:none
+  }
+  .FuséeLogoRetour img {
+    width: 5rem;
   }
   #photoProfilT{
       border-radius: 50px;
@@ -3586,13 +3609,47 @@ justify-content: space-between;
   .competencesT{
     margin-top: -1px;
   }
+  .iframeT {
+    border: none;
+  }
+ 
+  .hobbyT h2 {
+    text-align: center;
+    margin: 20px 0px 60px 0px;
+    font-size: 3rem;
+  }
+  
+  .hobbyT p {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(245, 245, 220, 0.567);
+    margin-bottom: 20vh;
+  
+  }
+  .mainhobbyT {
+    width: 100%;
+    height: 120vh;
+   padding : 5%; 
+  }
+  .footerT img{
+    width: 3rem;
+  }
+  .footerT p{
+    font-size: 2rem;
+  }
 }
+@media only screen and (min-width: 769px){
+  .FuséeLogoRetour{
+  visibility: visible;
+  }
+  }
+
 @media only screen and (min-width: 1025px){
 .menuListeT a{
   font-size: 1rem;
 }
 .H2T{
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 2vh;
 }
 .resumeT {
@@ -3653,6 +3710,19 @@ justify-content: space-between;
 .footerT img{
   width: 3rem;
 }
+.FuséeLogoRetour{
+  visibility: visible;
+  }
+  .hobbyT p {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(245, 245, 220, 0.567);
+    margin-bottom: 0vh;
+  }
+  .mainhobbyT{
+    height: 120vh;
+    padding-top: 0px;
+  }
 }
 
 
