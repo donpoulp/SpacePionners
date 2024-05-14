@@ -2478,18 +2478,18 @@ video {
 
 /* Ici commence le main content de la page contact ********************************* */
 
-.contactExperiencesListItem {
-  margin-top: 50px;
+.contactExperiencesListitem-product {
+  margin: 50px 0 0 50px;
 }
 
-.contactExperiencesListItem h3,
-.contactExperiencesListItem h2 {
+.contactExperiencesListitem-product h3,
+.contactExperiencesListitem-product h2 {
   font-size: 1.9rem;
   font-weight: 500;
   text-shadow: 2px 2px 2px var(--jaune);
 }
 
-.contactExperiencesListItem p {
+.contactExperiencesListitem-product p {
   font-size: 1.2rem;
   overflow-wrap: anywhere;
 }
