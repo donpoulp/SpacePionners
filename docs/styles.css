@@ -1563,6 +1563,8 @@ input {
   height: 90vh;
   padding: 1%;
 background-image: url(./Img/Img-SpacePionner/milkyWay.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .fiche-Produit-Titre-T p{
   margin: 5%;
