@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conctact CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="/SpacePionner/styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <style>
         a {
             color: white
@@ -21,19 +21,14 @@
 
 <body class="ficheContactT">
     <header class="headerT">
-        <div>
-            <nav>
+        <a class="FuséeLogoRetour" href="../CV-Tristan/index.html"><img src="../Img/Img-SpacePionner/Logo.png" alt="logo retour"/><a>
+            <a class="SP-Burger-Logo" href="./menuBurgerT.html"><img src="../Img/Img-SpacePionner/burger.svg" alt="Menu burger"/></a>
+        <h2 class="H2T">Page Contact</h2>
 
-                <nav class="menuContactT">
-                    <a href="index.html">retour arrière</a>
-                </nav>
-            </nav>
-        </div>
     </header>
 
     <main class="mainContactT">
-        <h2 class="H2T">Page Contact</h2>
-        <form class="formT" action="https://httpbin.org/post" method="post">
+        <form class="formT" action="https://httpbin.org/get" method="get">
             <div class="formdiv">
                 <label for="fname">Prénom:</label>
                 <input class="texteT" type="text" name="fname">
@@ -44,7 +39,7 @@
             </div>
             <div class="formdiv">
                 <label for="mail">Adresse Mail: </label>
-                <input class="texteT" type="text" name="lname">
+                <input class="texteT" type="mail" name="lname">
             </div>
             <p>Comment êtes vous arrivez sur mon CV :</p>
             <div class="formdiv">
@@ -73,12 +68,11 @@
             <button type="summit" value="Envoyer">Envoyer</button>
         </form>
     </main>
-    <footer class="footerContact">
-        <P>Adresse Mail : Tristan.chadeuf@gmail.com</P>
-        <p>Téléphone : 06.08.36.16.18</p>
-        <p>Réseaux Sociaux : </p><a href="https://www.linkedin.com/in/tristan-chadeuf-aa139b22b/"><img
-              alt="Logo linkedin"  src="../Img/Img-Tristan/linkedin.svg" style="width: 3em"></a>
-
+    <footer class="footerT">
+        <img src="../Img/Img-Tristan/telephone.svg"    alt="Icones de Telephone">
+        <p>06.08.36.16.18</p>
+        <a href="https://www.linkedin.com/in/tristan-chadeuf-aa139b22b/"><img src="../Img/Img-Tristan/linkedin.svg"   alt="Logo linkedin"></a>
+        <a id="fleche" href="#hautT"><img src="../Img/Img-Tristan/fusée scroll.svg" alt="fleche pour scroll horizontal"></a>
     </footer>
 </body>
 
