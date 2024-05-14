@@ -10,7 +10,7 @@ html {
 }
 
 .mainSPProductPage {
-  background-image: url(/src/Img/Img-SpacePionner/stars.png);
+  background-image: url(Img/Img-SpacePionner/stars.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@ fill: rgb(7, 177, 7);
     .SP-burger-BG{
       width: 100%;
       height: 100vh;
-      background-image: url(/src/Img/Img-SpacePionner/Accueil.png);
+      background-image: url(Img/Img-SpacePionner/Accueil.png);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -1562,9 +1562,7 @@ input {
   justify-content: center;
   height: 90vh;
   padding: 1%;
-  background-image: url(./Img/Img-SpacePionner/milkyWay.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+background-image: url(./Img/Img-SpacePionner/milkyWay.png);
 }
 .fiche-Produit-Titre-T p{
   margin: 5%;
@@ -2357,7 +2355,7 @@ video {
 .bodyAntoine {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: white;
-    background-image: url(/src/Img/Img-Antoine/stars.png);
+    background-image: url(Img/Img-Antoine/stars.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
