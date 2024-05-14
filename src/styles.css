@@ -1526,6 +1526,9 @@ input {
     justify-content: space-around;
 
   }
+  .NumeroDuhaut p span{
+    font-weight: bolder;
+  }
 
   .NumeroDuhaut {
     display: flex;
@@ -1830,6 +1833,7 @@ p {
 }
 .MesExp li{
   list-style: none;
+  /* font-size: 1.4rem; */
 }
 .MesExp2 {
   display: flex;
@@ -1864,8 +1868,8 @@ p {
   margin-top: 3%;
 }
 
-#MesExp li,p {
-  font-size: 20px;
+.MesExp li,.MesExp p {
+  font-size: 1.3rem;
 }
 
 .Diplome p {
@@ -3702,7 +3706,6 @@ h2 {
 h3 {
   font-size: 1.9rem;
 }
-
 
 p {
   font-size: 1.5rem;
