@@ -30,28 +30,28 @@
     <main class="mainContactT">
         <form class="formT" action="https://httpbin.org/get" method="get">
             <div class="formdiv">
-                <label for="fname">Prénom:</label>
-                <input class="texteT" type="text" name="fname">
+                <label for="fname"></label>
+                <input  placeholder="Prénom"  class="texteT" type="text" name="fname" required>
             </div>
             <div class="formdiv">
-                <label for="lname">Nom de famille: </label>
-                <input class="texteT" type="text" name="lname">
+                <label for="lname"></label>
+                <input placeholder="Nom" class="texteT" type="text" name="lname" required>
             </div>
             <div class="formdiv">
-                <label for="mail">Adresse Mail: </label>
-                <input class="texteT" type="mail" name="lname">
+                <label  for="mail"></label>
+                <input  placeholder="Adresse Mail"  class="texteT" type="mail" name="Mail" required>
             </div>
             <p>Comment êtes vous arrivez sur mon CV :</p>
             <div class="formdiv">
-                <input type="radio" id="linkedin" name="fav_language" value="HTML">
+                <input type="radio" id="linkedin" name="fav_language" value="linkedin">
                 <label for="linkedin">Linkedin</label><br>
             </div>
             <div class="formdiv">
-                <input type="radio" id="facebook" name="fav_language" value="HTML">
+                <input type="radio" id="facebook" name="fav_language" value="facebook">
                 <label for="facebook">Facebook</label><br>
             </div>
             <div class="formdiv">
-                <input type="radio" id="autre" name="fav_language" value="HTML">
+                <input type="radio" id="autre" name="fav_language" value="autre">
                 <label for="autre">Autre</label><br>
             </div>
             <div class="formdiv">
@@ -62,8 +62,7 @@
                 </select>
             </div>
             <div>
-                <p>Commentaires :</p>
-                <input class="texteT" type="text">
+               <textarea id="texteT" placeholder="Commentaires..." rows="5" cols="25" type="Commentaires"  name="Commentaires"></textarea>
             </div>
             <button type="summit" value="Envoyer">Envoyer</button>
         </form>

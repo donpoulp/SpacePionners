@@ -3099,8 +3099,8 @@ video {
 
 
 #fleche {
-  position: fixed;
-  right: 70px;
+position: fixed;
+  right: 50px;
   bottom: 0;
   width: 1em;
 }
@@ -3260,13 +3260,13 @@ video {
 }
 
 .formT {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: space-around;
   background-color: rgba(245, 245, 220, 0.382);
-  font-size: 1rem;
+  font-size: 0.5rem;
   padding-left: 0px;
 }
 
@@ -3282,7 +3282,7 @@ video {
 }
 
 .formdiv {
-  margin-bottom: 50px;
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
 }
@@ -3290,7 +3290,10 @@ video {
 .texteT {
   height: 30px;
   width: 200px;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+.formT label{
+  font-size: 1.2rem;
 }
 
 .footerContact {
