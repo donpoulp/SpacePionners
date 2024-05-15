@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  scrollbar-color: var(--4-color) var(--main-color);
+  scrollbar-width: thin;
 }
 
 /* PAGE PRODUIT************************************************PAGE PRODUIT */
